@@ -93,8 +93,8 @@ header {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-right: 93px;
   transition: color var(--animation);
 }
@@ -170,22 +170,25 @@ header {
 
 .link.current {
   color: var(--active-color);
+  padding: 32px 0;
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
   transition: color var(--animation);
+  position: relative;
+  display: block;
 }
 
 .link.current::after {
   content: '';
   display: block;
   position: absolute;
-  position: relative;
   width: 100%;
   height: 4px;
   border-radius: 2px;
+  bottom: -41%;
   background-color: var(--active-color);
 }
 
@@ -263,7 +266,7 @@ h2 {
   z-index: 1000;
 
 }
-.backdrop .is-hidden{
+.backdrop.is-hidden{
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
