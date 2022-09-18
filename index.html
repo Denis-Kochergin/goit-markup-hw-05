@@ -26,6 +26,7 @@
         </a>
         <ul class="list-nav">
           <li class="list-item-contact">
+
             <a class="link current" href="./index.html">Студия </a>
           </li>
 
@@ -60,7 +61,16 @@
     <section class="section-hero">
       <div class="contanier">
         <h1 class="hero-tittle">Ефективні рішення для вашого бізнесу</h1>
-        <button class="btn" type="button">Замовити послугу</button>
+        <button class="btn" type="button" data-modal-open>Замовити послугу</button>
+      </div>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button class="btn-modal" type="button" data-modal-close>
+          <svg class="close-icon" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" width="11" height="11">
+            <path d="M15 4.108 13.892 3 9.5 7.392 5.108 3 4 4.108 8.392 8.5 4 12.892 5.108 14 9.5 9.608 13.892 14 15 12.892 10.608 8.5 15 4.108Z" fill="#000"/>
+          </svg>
+        </button>
+        </div>
       </div>
     </section>
 
@@ -319,79 +329,79 @@
     </section>
     <section class="section-client">
       <div class="container">
-      <h2 class="tittle-subject-icon">Постійні кліенти</h2>
+        <h2 class="tittle-subject-icon">Постійні кліенти</h2>
 
-      <ul class="client-icon-list">
-        <li class="client-icon-item">
-          <a href="" class="link-client-icon"><svg class="client-icon" width="106" height="60">
-              <use href="./images/icon.svg#Logo"></use>
-            </svg></a>
-        </li>
-
-
-        <li class="client-icon-item">
-          <a href="" class="link-client-icon"><svg class="client-icon" width="106" height="60">
-              <use href="./images/icon.svg#Logo-1"></use>
-            </svg></a>
-        </li>
+        <ul class="client-icon-list">
+          <li class="client-icon-item">
+            <a href="" class="link-client-icon"><svg class="client-icon" width="106" height="60">
+                <use href="./images/icon.svg#Logo"></use>
+              </svg></a>
+          </li>
 
 
-        <li class="client-icon-item">
-          <a href="" class="link-client-icon"><svg class="client-icon" width="106" height="60">
-              <use href="./images/icon.svg#Logo-2"></use>
-            </svg></a>
-        </li>
+          <li class="client-icon-item">
+            <a href="" class="link-client-icon"><svg class="client-icon" width="106" height="60">
+                <use href="./images/icon.svg#Logo-1"></use>
+              </svg></a>
+          </li>
 
 
-        <li class="client-icon-item">
-          <a href="" class="link-client-icon"><svg class="client-icon" width="106" height="60">
-              <use href="./images/icon.svg#Logo-3"></use>
-            </svg></a>
-        </li>
+          <li class="client-icon-item">
+            <a href="" class="link-client-icon"><svg class="client-icon" width="106" height="60">
+                <use href="./images/icon.svg#Logo-2"></use>
+              </svg></a>
+          </li>
 
 
-        <li class="client-icon-item">
-          <a href="" class="link-client-icon"><svg class="client-icon" width="106" height="60">
-              <use href="./images/icon.svg#Logo-4"></use>
-            </svg></a>
-        </li>
+          <li class="client-icon-item">
+            <a href="" class="link-client-icon"><svg class="client-icon" width="106" height="60">
+                <use href="./images/icon.svg#Logo-3"></use>
+              </svg></a>
+          </li>
 
 
-        <li class="client-icon-item">
-          <a href="" class="link-client-icon"><svg class="client-icon" width="106" height="60">
-              <use href="./images/icon.svg#Logo-5"></use>
-            </svg></a>
-        </li>
+          <li class="client-icon-item">
+            <a href="" class="link-client-icon"><svg class="client-icon" width="106" height="60">
+                <use href="./images/icon.svg#Logo-4"></use>
+              </svg></a>
+          </li>
 
-      </ul>
-    </div>
+
+          <li class="client-icon-item">
+            <a href="" class="link-client-icon"><svg class="client-icon" width="106" height="60">
+                <use href="./images/icon.svg#Logo-5"></use>
+              </svg></a>
+          </li>
+
+        </ul>
+      </div>
     </section>
 
   </main>
   <footer class="footer">
     <div class="container container-footer">
-      
-        <div class="footer-contact-box">
 
-          <a class="logo-footer" href="./index.html">Web<span class="span">Studio</span></a>
+      <div class="footer-contact-box">
 
-          <!-- Address -->
-          <address class="address">
-            <ul class="list-address-footer">
-              <li class="list-item-footer">
-                <a class="link-maps" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
-                  rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a>
-              </li>
-              <li class="list-item-footer">
-                <a class="link-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
-              </li>
-              <li class="list-item-footer">
-                <a class="link-footer" href="tel:+380961111111">+38 096 111 11 11</a>
-              </li>
-            </ul>
-          </address>
-        </div>
-      
+        <a class="logo-footer" href="./index.html">Web<span class="span">Studio</span></a>
+
+        <!-- Address -->
+        <address class="address">
+          <ul class="list-address-footer">
+            <li class="list-item-footer">
+              <a class="link-maps" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
+                rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a>
+            </li>
+            <li class="list-item-footer">
+              <a class="link-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="list-item-footer">
+              <a class="link-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+
       <div class="footer-social-box">
         <p class="accession">Приєднуйтесь</p>
         <ul class="social-list-footer">
@@ -431,6 +441,7 @@
       </div>
     </div>
   </footer>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
